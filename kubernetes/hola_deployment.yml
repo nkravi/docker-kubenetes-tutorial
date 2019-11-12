@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hola-deployment
+  labels:
+    app: hola-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hola-app
+  template:
+    metadata:
+      labels:
+        app: hola-app
+    spec:
+      containers:
+      - name: hola-container
+        image: nkravi/holaapp:latest
+        ports:
+        - containerPort: 5001
