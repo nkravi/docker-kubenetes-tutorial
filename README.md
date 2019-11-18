@@ -36,3 +36,4 @@
 ### Furter Readings
 - [Docker Tutorial](https://docs.docker.com/get-started/)
 - [Kubernetes Tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Interactive Kube Tutorial](https://www.katacoda.com/courses/kubernetes/playground)
