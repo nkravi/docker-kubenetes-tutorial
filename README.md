@@ -31,3 +31,8 @@
 - Click on `create button` on top right corner
 - Copy paste yaml files from `docker-kubenetes-tutorial/kubernetes` one by one and click on upload 
 - Now you should see `2 services` , `2 deployments` and `1 ingress` running 
+- Play with it
+
+### Furter Readings
+- [Docker Tutorial](https://docs.docker.com/get-started/)
+- [Kubernetes Tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
